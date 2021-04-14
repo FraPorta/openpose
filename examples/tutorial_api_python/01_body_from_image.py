@@ -34,7 +34,7 @@ try:
     # Custom Params (refer to include/openpose/flags.hpp for more parameters)
     params = dict()
     params["model_folder"] = "../../../models/"
-
+    
     # Add others in path?
     for i in range(0, len(args[1])):
         curr_item = args[1][i]
